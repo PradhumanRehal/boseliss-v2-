@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prototype-XLSX-I/O</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.3.0/exceljs.min.js" integrity="sha512-UnrKxsCMN9hFk7M56t4I4ckB4N/2HHi0w/7+B/1JsXIX3DmyBcsGpT3/BsuZMZf+6mAr0vP81syWtfynHJ69JA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js" integrity="sha512-Qlv6VSKh1gDKGoJbnyA5RMXYcvnpIqhO++MhIM2fStMcGT9i2T//tSwYFlcyoRRDcDZ+TYHpH8azBBCyhpSeqw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script type="text/javascript" src="C:/Users/Rehal2/Desktop/Boseliss/divisions.json"></script>
+
+
+	<script type="text/javascript"
+	src="bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<style type="text/css">
+		html,body{
+			height: 100%;
+			background: #005266;
+		}
+		.container{
+			height: 98%;
+			align-content: center;
+		}
+		.aligment{
+			display: flex;
+			flex-direction: column;
+			height: inherit;%;
+		}
+		.btn{
+
+			background: floralwhite;
+			text-decoration: none;
+			margin: auto;
+			width: 50%;
+			display:flex ;
+			height: inherit;
+			align-content: center;
+		}
+		.ftr{
+			color: white;
+			display: flex;
+			margin: auto;
+			justify-content: center;
+/*			justify-content: space-around;
+*/		}
+		input{
+			justify-content: center;
+		}
+
+	</style>
+</head>
+<body id="1">
+	<div class="container .alingment">
+	<script type="text/javascript">
+
+		var da = new Date;
+
+		async function loadFile() {
+			var fileInput = document.getElementById('fileItem');
+			//console.log(fileInput[0]);
+			var files = fileInput.files[0];	
+			var fileName = files.name;
+			console.log(files, files.name);
+
+			const blob = new Blob([files], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8' });
+			const buffer = await blob.arrayBuffer();
+
+			const workbook = new ExcelJS.Workbook();
+			await workbook.xlsx.load(buffer);
+
+			const ws = workbook.worksheets[0];
+			console.log(ws.rowCount, ws.actualRowCount, ws.columnCount, ws.actualColumnCount);
+
+			const addCol = ws.getColumn('C');
+
+			var totalOrders = ws.actualRowCount-1;
+			console.log("orders", totalOrders);
+
+
+
+			/*var area1 = ["nabha","ਨਾਭਾ","bhadson","ਭਾਦਸੋਂ","rajpura","ghanaur","samana","patran","ghagga","shutrana","ਸਮਾਣਾ","ਪਾਤੜਾਂ"];*/
+
+			var area1 = area_data;
+			var arN = area1[1].areas;
+			var area1Length = Object.keys(area1).length;
+
+			console.log(area1Length);
+
+			//console.log("length", area1Length, area1);
+
+
+			var body = document.getElementById('1');
+
+		//	debug cell A1
+		
+		//	console.log(ws.getCell('A'+1).value);
+
+
+			if(ws.getCell('A'+1).value==="PUNJAB"){
+				var i=2;
+				console.log("i = "+i);
+			}
+			else{
+				var i=1;
+				console.log("i = "+i);
+			}
+
+			for(i; i <=totalOrders+1;i++){
+				var address = ws.getCell('C'+i).value.toLowerCase();
+				//console.log(i-1, address);
+
+				for (var j = 1; j<=area1Length; j++) {
+					//console.log(area1[j]['areas'].length);
+
+					for(let z = 0;z<=area1[j].areas.length; z++){
+					if(address.includes(area1[j].areas[z])){
+						//console.log(area1[j].areas[z].toUpperCase() ,address);
+					//	ws.getCell('F'+i).value = area1[j].areas[z];
+						console.log(area1[j].areas[z], i);	
+						ws.getCell('F'+i).value = area1[j].areas[z]; // locality 
+						ws.getCell('G'+i).value = area1[j].division; // district's division
+						ws.getCell('H'+i).value = area1[j].sevadar;  // sevadar associated with division
+ 					//	break;
+						//ws.getCell('H'+i).value = area1[j].areas[z];					
+					}
+
+					//ws.getCell('F'+i).value = area1[j].division;
+					//ws.getCell('G'+i).value = area1[j].sevadar;
+				}
+
+								
+				}
+			}
+
+		workbook.xlsx.writeBuffer().then((data)=>{
+			const blob2 = new Blob ([data], {type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8'});
+			saveAs(blob2, fileName);
+			});
+
+
+
+		}
+
+
+	</script>
+
+	<input type="file" name="xlsxfile" accept=".xlsx" id="fileItem" onchange="loadFile()" name="upload XLSX" class="col-md-12 btn">
+<!-- 	<button name="save" onchange="saveXSLX()"> save file</button>
+ -->
+
+ 	<footer class="col-md-12 ftr">
+ 		Book Seva List Sort v2
+ 	</footer>
+ 	</div>
+</body>
+</html>
