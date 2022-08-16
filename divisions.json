@@ -10,7 +10,7 @@ area_data = {
 		"division":"samana/patran",
 		"sevadar": "harjinder_das",
 		"areas":["samana","patran","ghagga","shutrana","ਸਮਾਣਾ","ਪਾਤੜਾਂ","kutbanpur","fatha majri","patra","ਪਾਤਰਾਂ","dugal khurd","dugal kalan","karhali","amamnagar","147101"
-			,"147105","<147101>","<147105>","bhutgarh","147102"
+			,"147105","<147101>","<147105>","bhutgarh","147102","dhanetha","talwandi malik","lalouchhi"
 		]
 	},
 	"3":{
@@ -50,7 +50,7 @@ area_data = {
 			,"jagatpura","badungar","guru nanak nagar","dhanoura","ahluwalia street","ahluwalia road","<147004>","leela bhawan","punjabi bagh","deep nagar"
 			,"Chandni Chowk","147005","<147005>","ekta vihar anand nagar","anand nagar","aman nagar","sidhuwal","dhamomajra","lal bagh",
 			"nlbc","ratan nagar","rattan nagar","malwa cinema","hira nagar patiala","harinder nagar","indra puri colony","indra colony","Bhupendra road","gurdarshan nagar"
-			,"police lines","police line"
+			,"police lines","police line","bhadson road patiala","ranjeet nagar patiala","ranjit nagar patiala"
 
 		]
 	},
@@ -73,7 +73,7 @@ area_data = {
 		"division":"patiala_devigarh_area",
 		"sevadar":"bintu_das",
 		"areas":["devigarh","ਦੇਵੀਗੜ੍ਹ","dudhan sadhan","dudhan","massingan","ganeshpur","ਦੀਵਾਨਵਾਲਾ","diwanwala","ghuram","ਘੁਰਮ","gharam","147111"
-			,"<147111>","daulatpur fakira","doulatpur fakira","daulatpur fakiran","792794"
+			,"<147111>","daulatpur fakira","doulatpur fakira","daulatpur fakiran"
 		]
 	},
 
