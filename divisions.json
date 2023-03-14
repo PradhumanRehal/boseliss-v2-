@@ -86,7 +86,8 @@ area_data = {
 	"12":{
 		"division":"bhadson",
 		"sevadar":"gurdhyan_das",
-		"areas":["147202","<147202>","dadrala kharoud","bhadson","tohra","chaswal","paidan","halotali","nanoki","dakonda","raisal","tarkheri kalan"]
+		"areas":["147202","<147202>","dadrala kharoud","bhadson","tohra","chaswal","paidan","halotali","nanoki","dakonda","raisal","tarkheri kalan"
+			,"dargapur","kheri jattan","sakrali","kansuha khurd","nanoki","kallar majri","kaidupur","bazidri","dhanoura","ajnouda kalan"]
 	},
 	"13":{
 		"division":"patiala_central",
