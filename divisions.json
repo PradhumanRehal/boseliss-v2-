@@ -51,6 +51,7 @@ area_data = {
 			,"Chandni Chowk","147005","<147005>","ekta vihar anand nagar","anand nagar","aman nagar","sidhuwal","dhamomajra","lal bagh",
 			"nlbc","ratan nagar","rattan nagar","malwa cinema","hira nagar patiala","harinder nagar","indra puri colony","indra colony","Bhupendra road","gurdarshan nagar"
 			,"police lines","police line","bhadson road patiala","ranjeet nagar patiala","ranjit nagar patiala","ablowal","chotti rouni","rauni","partap nagar patiala"
+			 ,"ghuman nagar"
 
 		]
 	},
@@ -82,7 +83,7 @@ area_data = {
 	"11":{
 		"division":"patiala_north",
 		"sevadar":"rajesh_das",
-		"areas":["sirhind road","alipur","allipur","seona","ghuman nagar","bachittar nagar",
+		"areas":["sirhind road","alipur","allipur","seona","bachittar nagar",
 			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point patiala"]
 	},
 	"12":{
