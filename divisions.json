@@ -3,7 +3,7 @@ area_data = {
 		"division":"nabha",
 		"sevadar": "lalit_das",
 		"areas":["nabha","naba","ਨਾਭਾ","patiala gate", "boran gate","bauran gate", "mehas gate","mehs gate", "duladi gate","duladdi gate","alohran gate",
-			"hira mahal","147201","<147201>","kalemajra","diwangarh","sholi"
+			"hira mahal","147201","<147201>","kalemajra","diwangarh","sholi","moti bagh nabha"
 		]
 	},
 	"2":{
@@ -24,7 +24,7 @@ area_data = {
 		"division":"patiala_bus_stand",
 		"sevadar": "sitaram_das",
 		"areas":["sst nagar","bishan nagar","gurbax colony","dmw","dcw","lahori gate","hira bagh","hira bag","hira baag","rajpura colony"
-			,"jujhar nagar","tafazal pura","tafazalpura","bishan nager"
+			,"jujhar nagar","tafazal pura","tafazalpura","bishan nager","taffazalpura"
 		]
 	},
 
@@ -50,7 +50,7 @@ area_data = {
 			,"jagatpura","badungar","guru nanak nagar","dhanoura","ahluwalia street","ahluwalia road","<147004>","leela bhawan","punjabi bagh","deep nagar"
 			,"Chandni Chowk","147005","<147005>","ekta vihar anand nagar","anand nagar","aman nagar","sidhuwal","dhamomajra","lal bagh",
 			"nlbc","ratan nagar","rattan nagar","malwa cinema","hira nagar patiala","harinder nagar","indra puri colony","indra colony","Bhupendra road","gurdarshan nagar"
-			,"police lines","police line","bhadson road patiala","ranjeet nagar patiala","ranjit nagar patiala"
+			,"police lines","police line","bhadson road patiala","ranjeet nagar patiala","ranjit nagar patiala","ablowal","chotti rouni","rauni","partap nagar patiala"
 
 		]
 	},
@@ -89,13 +89,16 @@ area_data = {
 		"division":"bhadson",
 		"sevadar":"gurdhyan_das",
 		"areas":["147202","<147202>","dadrala kharoud","bhadson","tohra","chaswal","paidan","halotali","nanoki","dakonda","raisal","tarkheri kalan"
-			,"dargapur","kheri jattan","sakrali","kansuha khurd","nanoki","kallar majri","kaidupur","bazidri","dhanoura","ajnouda kalan"]
+			,"dargapur","kheri jattan","sakrali","kansuha khurd","nanoki","kallar majri","kaidupur","bazidri","dhanoura","ajnouda kalan"
+			 ,"dakonda"
+			]
 	},
 	"13":{
 		"division":"patiala_central",
 		"sevadar":"dinesh_das",
 		"areas":["dharmpura","dharm pura","top khana gate","dharampura","jorian bhatian","jourian bathian","doma wali gali","arna barna","top khana",
-			"gher sodian","sirhindi bazar","lahori gate","gur mandi","raghomajra","ragho majra","darshani gate","old lal bagh","dhillon colony","rose colony"
+			"gher sodian","sirhindi bazar","lahori gate","gur mandi","raghomajra","ragho majra","darshani gate","old lal bagh","dhillon colony","rose colony",
+			 "moti bagh patiala","raghumajra"
 		]
 	}
 
