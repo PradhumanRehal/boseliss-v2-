@@ -80,10 +80,10 @@ area_data = {
 	},
 
 	"11":{
-		"division":"patiala_sirhind_road",
+		"division":"patiala_north",
 		"sevadar":"rajesh_das",
 		"areas":["sirhind road","alipur","allipur","seona","ghuman nagar","bachittar nagar",
-			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point"]
+			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point patiala"]
 	},
 	"12":{
 		"division":"bhadson",
