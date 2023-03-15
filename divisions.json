@@ -32,7 +32,8 @@ area_data = {
 		"division":"patiala_sanaur",
 		"sevadar": "harinder_das",
 		"areas":["sanaur","sanour","markal colony","sanauri adda","tej bagh colony","sanaor","147103","<147103>","chaura road","ganga vihar colony"
-			,"chora","royal green"]
+			,"chora","royal green","mehargarh batti"
+			]
 	},
 
 	"6":{
@@ -51,7 +52,7 @@ area_data = {
 			,"Chandni Chowk","147005","<147005>","ekta vihar anand nagar","anand nagar","aman nagar","sidhuwal","dhamomajra","lal bagh",
 			"nlbc","ratan nagar","rattan nagar","malwa cinema","hira nagar patiala","harinder nagar","indra puri colony","indra colony","Bhupendra road","gurdarshan nagar"
 			,"police lines","police line","bhadson road patiala","ranjeet nagar patiala","ranjit nagar patiala","ablowal","chotti rouni","rauni","partap nagar patiala"
-			 ,"ghuman nagar"
+			 ,"ghuman nagar","majithia enclave","bachittar nagar"
 
 		]
 	},
@@ -60,7 +61,8 @@ area_data = {
 		"division":"patiala_dakala_area",
 		"sevadar":"palwinder das",
 		"areas":["dakala","kheri gujran","sular","sullar","ਸੁਲਰ","ਸੁਲਾਰ","manjal kala","manjal kalan","panjola","karhali sahib","balbehra","ਬਲ੍ਬੇਹਰਾ"
-			 ,"karhali","zaffarpur","jaafarpur"
+			 ,"karhali","zaffarpur","jaafarpur","alipur jattan","charason","bathoi kalan","bathoi khurd","chutehra","nanansu","chuharpur jattan"
+			 
 			]
 	},
 
@@ -83,7 +85,7 @@ area_data = {
 	"11":{
 		"division":"patiala_north",
 		"sevadar":"rajesh_das",
-		"areas":["sirhind road","alipur","allipur","seona","bachittar nagar",
+		"areas":["sirhind road","alipur","allipur","seona",
 			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point patiala"]
 	},
 	"12":{
@@ -91,7 +93,7 @@ area_data = {
 		"sevadar":"gurdhyan_das",
 		"areas":["147202","<147202>","dadrala kharoud","bhadson","tohra","chaswal","paidan","halotali","nanoki","dakonda","raisal","tarkheri kalan"
 			,"dargapur","kheri jattan","sakrali","kansuha khurd","nanoki","kallar majri","kaidupur","bazidri","dhanoura","ajnouda kalan"
-			 ,"dakonda"
+			 ,"dakonda","ਖਨੌੜਾ","sadhnauli","sandhnoli","nanowal"
 			]
 	},
 	"13":{
@@ -99,7 +101,7 @@ area_data = {
 		"sevadar":"dinesh_das",
 		"areas":["dharmpura","dharm pura","top khana gate","dharampura","jorian bhatian","jourian bathian","doma wali gali","arna barna","top khana",
 			"gher sodian","sirhindi bazar","lahori gate","gur mandi","raghomajra","ragho majra","darshani gate","old lal bagh","dhillon colony","rose colony",
-			 "moti bagh patiala","raghumajra"
+			 "moti bagh patiala","raghumajra","jodian bhatian","karah wala chowk","raghumajra","rago majra","qila chowk","b tank"
 		]
 	}
 
