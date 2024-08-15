@@ -10,7 +10,7 @@ area_data = {
 		"division":"samana/patran",
 		"sevadar": "harjinder_das",
 		"areas":["samana","patran","ghagga","shutrana","ਸਮਾਣਾ","ਪਾਤੜਾਂ","kutbanpur","fatha majri","patra","ਪਾਤਰਾਂ","dugal khurd","dugal kalan","karhali","amamnagar","147101"
-			,"147105","<147101>","<147105>","bhutgarh","147102","dhanetha","talwandi malik","lalouchhi","dhanetha","malkana","bujrak","ਸ਼ੁਤਰਾਣਾ","सामाना"
+			,"147105","<147101>","<147105>","bhutgarh","147102","dhanetha","talwandi malik","lalouchhi","dhanetha","malkana","bujrak","ਸ਼ੁਤਰਾਣਾ","सामाना","harayu khurd"
 		]
 	},
 	"3":{
@@ -18,14 +18,15 @@ area_data = {
 		"sevadar": "tejinder_das",
 		"areas":["rajpura","raj pura","राजपुरा","ਰਾਜਪੁਰਾ","ghanaur","ghanor","ghanour","ਘਨੌਰ","घनौर","nabha power","kauli","140701","thermal plant","mandauli","140401"
 			,"mirazapur","<140401>","140417","<140417>","sehri","140701","140416","Sanaulian","ਸਨੌਲੀਆਂ","sanolia","manakpur","sural kalan","shamdoo","anand nagar rajpura"
-			,"kuldeep nagar rajpura"
+			,"kuldeep nagar rajpura","140702","<140702>"
 		]
 	},
 	"4":{
 		"division":"patiala_bus_stand",
 		"sevadar": "sitaram_das",
 		"areas":["sst nagar","bishan nagar","gurbax colony","dmw","dcw","lahori gate","hira bagh","hira bag","hira baag","rajpura colony"
-			,"jujhar nagar","tafazal pura","tafazalpura","bishan nager","taffazalpura","anchal nagar patiala"
+			,"jujhar nagar","tafazal pura","tafazalpura","bishan nager","taffazalpura","anchal nagar patiala","sundar nagar","gurbax colony"
+			,"gurbaksh colony","plw colony patiala","plw","gurmukh colony patiala","vijay nagar patiala","aman nagar patiala"
 		]
 	},
 
@@ -41,7 +42,7 @@ area_data = {
 		"division":"patiala_university_area",
 		"sevadar": "davinder_das",
 		"areas":["urban estate","phase 2","punjabi university","ਯੂਨੀਵਰਸਿਟੀ","chappar","bahadurgarh","bir bahadurgarh","raipur mandalan","raipur mandanla"
-			,"147021","<147021>","147002","<147002>","rishi colony","rajpura road patiala"
+			,"147021","<147021>","147002","<147002>","rishi colony","rajpura road patiala","virk colony patiala"
 		]
 	},
 
@@ -55,6 +56,7 @@ area_data = {
 			,"police lines","police line","bhadson road patiala","ranjeet nagar patiala","ranjit nagar patiala","ablowal","chotti rouni","rauni","partap nagar patiala"
 			 ,"ghuman nagar","majithia enclave","bachittar nagar","tripri","pratap nagar patiala","shaedudam singh nagar","dashmesh nagar a","ajit nagar patiala","bhadson road patiala"
 			 ,"gurdeep colony patiala","jhill road","bhupindera road","bandugar","gian colony patiala","dhamo majra","malwa enclave patiala","patiala cantt","passy road"
+			,"seona chowk","siona chowk","sewak colony","seona","sant nagar patiala"
 
 
 		]
@@ -62,9 +64,10 @@ area_data = {
 
 	"8":{
 		"division":"patiala_dakala_area",
-		"sevadar":"palwinder das",
+		"sevadar":"palwinder_das",
 		"areas":["dakala","kheri gujran","sular","sullar","ਸੁਲਰ","ਸੁਲਾਰ","manjal kala","manjal kalan","panjola","karhali sahib","balbehra","ਬਲ੍ਬੇਹਰਾ"
 			 ,"karhali","zaffarpur","jaafarpur","alipur jattan","charason","bathoi kalan","bathoi khurd","chutehra","nanansu","chuharpur jattan"
+			,"daroli","droli","mavi sapan","mavi sappan"
 			 
 			]
 	},
@@ -73,7 +76,8 @@ area_data = {
 		"division":"patiala_pasiana_area",
 		"sevadar":"raghuvir_das",
 		"areas":["pasiana","pasina","samana road","sangrur road","tarapore gate","rajendra road","tarapur gate","dhakraba","wazidpur","swajpur"
-			,"sawajpur","kheri musalmani","ranbirpura","jahlan"]
+			,"sawajpur","kheri musalmani","ranbirpura","jahlan","passiana"
+		]
 
 	},
 
@@ -88,8 +92,8 @@ area_data = {
 	"11":{
 		"division":"patiala_north",
 		"sevadar":"rajesh_das",
-		"areas":["sirhind road","alipur","allipur","seona",
-			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point patiala"
+		"areas":["sirhind road","alipur","allipur",
+			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point patiala","nandpur kesho"
 			]
 	},
 	"12":{
@@ -107,6 +111,7 @@ area_data = {
 			"gher sodian","sirhindi bazar","sirhindi gate","lahori gate","gur mandi","raghomajra","ragho majra","darshani gate","old lal bagh","dhillon colony","rose colony",
 			 "moti bagh patiala","raghumajra","jodian bhatian","karah wala chowk","raghumajra","rago majra","qila chowk","b tank","mathura colony","sahi samadha","saifabadi gate",
 			 "saifabadi road","bhindian street","achar bazar","bhiandian street","sheesh mahal colony","sheesh mahal enclave","sheesh mahal","shees mahal"
+			,"amar darshan colony","fountain chowk","kacha patiala","kacha street","sui gram","suigran","sui gran"
 		]
 	}
 
