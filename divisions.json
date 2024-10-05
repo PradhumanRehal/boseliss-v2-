@@ -56,7 +56,7 @@ area_data = {
 			,"police lines","police line","bhadson road patiala","ranjeet nagar patiala","ranjit nagar patiala","ablowal","chotti rouni","rauni","partap nagar patiala"
 			 ,"ghuman nagar","majithia enclave","bachittar nagar","tripri","pratap nagar patiala","shaedudam singh nagar","dashmesh nagar a","ajit nagar patiala","bhadson road patiala"
 			 ,"gurdeep colony patiala","jhill road","bhupindera road","bandugar","gian colony patiala","dhamo majra","malwa enclave patiala","patiala cantt","passy road"
-			,"seona chowk","siona chowk","sewak colony","seona","sant nagar patiala"
+			,"seona chowk","siona chowk","sewak colony","seona","sant nagar patiala","tirpuri","anand nagar b","passey road"
 
 
 		]
@@ -67,7 +67,7 @@ area_data = {
 		"sevadar":"palwinder_das",
 		"areas":["dakala","kheri gujran","sular","sullar","ਸੁਲਰ","ਸੁਲਾਰ","manjal kala","manjal kalan","panjola","karhali sahib","balbehra","ਬਲ੍ਬੇਹਰਾ"
 			 ,"karhali","zaffarpur","jaafarpur","alipur jattan","charason","bathoi kalan","bathoi khurd","chutehra","nanansu","chuharpur jattan"
-			,"daroli","droli","mavi sapan","mavi sappan"
+			,"daroli","droli","mavi sapan","mavi sappan","daroli","darouli"
 			 
 			]
 	},
@@ -85,7 +85,7 @@ area_data = {
 		"division":"patiala_devigarh_area",
 		"sevadar":"bintu_das",
 		"areas":["devigarh","ਦੇਵੀਗੜ੍ਹ","dudhan sadhan","dudhan","massingan","ganeshpur","ਦੀਵਾਨਵਾਲਾ","diwanwala","ghuram","ਘੁਰਮ","gharam","147111"
-			,"<147111>","daulatpur fakira","doulatpur fakira","daulatpur fakiran"
+			,"<147111>","daulatpur fakira","doulatpur fakira","daulatpur fakiran","bhunarhari","behru","shadipur"
 		]
 	},
 
@@ -93,7 +93,7 @@ area_data = {
 		"division":"patiala_north",
 		"sevadar":"rajesh_das",
 		"areas":["sirhind road","alipur","allipur",
-			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point patiala","nandpur kesho"
+			"baran","alipur araian","jhill","majhitia enclave","sirhond","bharat nagar","focal point patiala","nandpur kesho","reet kheri"
 			]
 	},
 	"12":{
@@ -111,7 +111,8 @@ area_data = {
 			"gher sodian","sirhindi bazar","sirhindi gate","lahori gate","gur mandi","raghomajra","ragho majra","darshani gate","old lal bagh","dhillon colony","rose colony",
 			 "moti bagh patiala","raghumajra","jodian bhatian","karah wala chowk","raghumajra","rago majra","qila chowk","b tank","mathura colony","sahi samadha","saifabadi gate",
 			 "saifabadi road","bhindian street","achar bazar","bhiandian street","sheesh mahal colony","sheesh mahal enclave","sheesh mahal","shees mahal"
-			,"amar darshan colony","fountain chowk","kacha patiala","kacha street","sui gram","suigran","sui gran"
+			,"amar darshan colony","fountain chowk","kacha patiala","kacha street","sui gram","suigran","sui gran","sanjay colony patiala","suigran","suigram","triveni chowk","dalalpura street"
+			,"kesar bagh patiala","kesar bagh","arora street","lohori gate"
 		]
 	}
 
